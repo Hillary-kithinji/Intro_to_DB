@@ -1,11 +1,11 @@
 import mysql.connector
 
 try:
-    # Connect to MySQL server (no database yet)
+    # Connect to MySQL server
     connection = mysql.connector.connect(
-        host='localhost',        # replace with your MySQL host
-        user='root',             # replace with your MySQL username
-        password='your_password' # replace with your MySQL password
+        host='localhost',        
+        user='root',             
+        password='your_password' 
     )
 
     if connection.is_connected():
